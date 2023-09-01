@@ -1,3 +1,6 @@
 body {
-    background-color: aqua;
+    background-color: slategray;
+}
+.mainTitle {
+    text-align: center;    
 }
