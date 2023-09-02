@@ -48,6 +48,10 @@ console.log(`Total Salary: ${totalSalary} Monthly Salary: ${totalMonth}`); // ad
 
 function deleteRow (event){
     console.log("deletus!");
-annualSalary = 
+    const deletedAnnualSalary = parseFloat($(event.target).closest("tr").find("td:nth-child(5)").text());
+    //                          ^^ gross!!!
+    totalSalary -= deletedAnnualSalary; // removing deleted salary from total
+  totalMonth = totalSalary / 12;
+  $(".monthlySalary").text(totalMonth);
     $(event.target).closest("tr").remove();
 }
