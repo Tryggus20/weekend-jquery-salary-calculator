@@ -1,6 +1,13 @@
 body {
     background-color: slategray;
 }
+.delete {
+    border-left: 1px solid;
+    text-align: center;
+}
+.deleteButton {
+    margin: center;
+}
 .mainTitle {
     text-align: center;    
 }
@@ -21,6 +28,12 @@ th {
     border: 1px solid;
 
     text-align: left;
+}
+td {
+    border-bottom: 1px solid;
+}
+.total {
+    text-align: right;
 }
 /* make table centered and have borders where needed.
    maybe add a differen background color to the table as well? */
