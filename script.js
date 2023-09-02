@@ -16,6 +16,7 @@ $(".table").on("click", ".deleteButton", deleteRow)
 let annualSalary = 0 // outside of function so my delete button can access it
 let totalSalary =0
 let totalMonth = 0
+
 function addInput() {
     console.log('button says "hello"'); //button working
     let firstName = $(".firstName").val();
@@ -43,6 +44,9 @@ function addInput() {
 totalSalary = annualSalary + totalSalary
 totalMonth = (totalSalary/12)
 $(".monthlySalary").text(totalMonth);
+if (totalMonth > 20000) {
+    $('.monthlySalary').addClass("red");
+}//end of $20,000 check
 console.log(`Total Salary: ${totalSalary} Monthly Salary: ${totalMonth}`); // added for testing
 } //end of addInput function
 
@@ -54,4 +58,7 @@ function deleteRow (event){
   totalMonth = totalSalary / 12;
   $(".monthlySalary").text(totalMonth);
     $(event.target).closest("tr").remove();
+    if (totalMonth < 20000) {
+        $('.monthlySalary').removeClass("red");
+    }// remove red if below $20,000
 }

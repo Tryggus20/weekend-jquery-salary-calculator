@@ -1,6 +1,10 @@
 body {
     background-color: slategray;
 }
+.red{
+    background-color: red;
+    border-radius: 5px;
+}
 .delete {
     border-left: 1px solid;
     text-align: center;
