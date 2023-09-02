@@ -7,6 +7,14 @@ body {
 }
 .deleteButton {
   margin: center;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 5px 5px;
+  cursor: pointer;
+}
+.deleteButton:hover {
+  background-color: darkgray;
 }
 .inputs {
   text-align: center;
@@ -26,7 +34,7 @@ body {
   background-color: black;
   color: white;
   border: none;
-  padding: 10px 20px;
+  padding: 7px 7px;
   cursor: pointer;
 }
 .submit:hover {
@@ -45,12 +53,16 @@ table.center {
 table,
 th,
 td {
-  border: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
 }
 th,
 td {
   padding: 8px;
   text-align: left;
+}
+
+td.salary::before {
+    content: "$"; /* took me a bit to figure this out */
 }
 tr.inputFields {
   border: 1px solid;

@@ -3,8 +3,9 @@ Salary Calculator Wireframe
 
 ## Description
 
-_Duration:  _
+_Duration: 5 Hours  _
 
+I have developed a project that takes an employee's information such as name, id number, title, and annual salary. It then displays that employee in the table and calculates the total monthly salary. If the total monthly salary goes above $20,000, the number turns red.
 
 Directly above this is how long it took you to develop the project. Your project description goes here. What problem did you solve? How did you solve it? 
 

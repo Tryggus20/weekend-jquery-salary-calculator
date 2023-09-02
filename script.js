@@ -29,14 +29,14 @@ function addInput() {
       alert("Please fill in all fields with the correct information");
       return; //alert for missing data comment on/off for testing
   }
-  
+
   $(`.table`).append(
     `<tr class ="removable">
      <td>${firstName}</td>
      <td>${lastName}</td>
      <td>${id}</td>
      <td>${title}</td>
-     <td>${annualSalary}</td>
+     <td class="salary">${annualSalary}</td>
      <td class="delete"><button class="deleteButton">Delete</button></td>
      </tr>
 `
