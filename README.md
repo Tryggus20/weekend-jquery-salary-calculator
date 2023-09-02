@@ -5,21 +5,16 @@ Salary Calculator Wireframe
 
 _Duration: 5 Hours  _
 
-I have developed a project that takes an employee's information such as name, id number, title, and annual salary. It then displays that employee in the table and calculates the total monthly salary. If the total monthly salary goes above $20,000, the number turns red.
-
-Directly above this is how long it took you to develop the project. Your project description goes here. What problem did you solve? How did you solve it? 
-
-I added input forums that collect: employee first name, last name, ID number, job title, and annual salary. A submit button is attached to those inputs to add to a table to calculate the monthly costs. 
+I have developed a project that takes an employee's information such as name, id number, title, and annual salary. It then displays that employee in the table and calculates the total monthly salary. If the total monthly salary goes above $20,000, the number turns red. Each employee can be removed from the table with a click of their corresponding button.
 
 ## Usage
-How does someone use this application? Tell a user story here.
+An employer can utilize this project to quickly see if payroll is over budget
 
-1. xxx
-2. xxx
-3. xxx
-4. xxx
-5. xxx
-6. xxx
+1. Enter Information in the input fields
+2. Click the button to add the employee
+3. Check total monthly salary
+4. If needed, can remove any employee in the table
+5. If above $20,000 a month, it alerts you with a color change
 
 
 ## Built With
